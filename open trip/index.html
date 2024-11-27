@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Petualangan di Gunung</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+
+  </head>
+
+  <body>
+
+    <!-- Header -->
+    <header class="hero">
+      <div class="container">
+          <h1>Petualangan di Gunung</h1>
+          <p>Jelajahi keindahan alam dan nikmati petualangan luar biasa di puncak gunung bersama kami!</p>
+          <a href="#layanan">Mulai Petualangan</a>
+      </header>
+      
+      <nav>
+          <ul>
+              <li><a href="#home">Beranda</a></li>
+              <li><a href="#tentang">Tentang Kami</a></li>
+              <li class="dropdown">
+                  <a href="#">Layanan ▼</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#pendakian">Pendakian Bersama</a></li>
+                      <li><a href="#kemping">Camping</a></li>
+                      <li><a href="#fotografi">Fotografi Alam</a></li>
+                      <li><a href="#edukasi">Edukasi Alam</a></li>
+                  </ul>
+              </li>
+              <li><a href="#kontak">Kontak</a></li>
+          </ul>
+      </nav>
+
+          <!-- Tombol WhatsApp -->
+<a href="https://wa.me/6281230448737" target="_blank" class="whatsapp-button">
+  <img src="img/ikon wa.png" alt="Chat with us on WhatsApp" />
+</a>
+
+    <!-- Tentang Kami -->
+    <section id="tentang">
+      <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>
+          Kami adalah komunitas pecinta alam yang berdedikasi untuk mengenalkan
+          keindahan gunung-gunung di Indonesia, membantu Anda menjelajahi alam
+          dengan cara yang aman, ramah lingkungan, dan berkesan.
+        </p>
+      </div>
+    </section>
+
+    <!-- Layanan -->
+    <section id="layanan">
+      <div class="container">
+        <h3>Layanan Kami</h3>
+        <div class="service-item">
+          <img src="img/pendakian.jpg" alt="Pendakian" />
+          <h3>Pendakian Bersama</h3>
+          <p>
+            Ikuti pendakian bersama tim profesional kami untuk pengalaman yang
+            tak terlupakan.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="img/camping.jpg" alt="Kemping" />
+          <h3>Camping</h3>
+          <p>
+            Nikmati malam berbintang dengan suasana gunung yang menenangkan.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="img/fotografi.jpg" alt="Fotografi" />
+          <h3>Fotografi Alam</h3>
+          <p>
+            Tangkap keindahan alam dengan panduan fotografer profesional kami.
+          </p>
+        </div>
+        <div class="service-item">
+          <img src="img/edukasi alam.jpg" alt="Edukasi" />
+          <h3>Edukasi Alam</h3>
+          <p>
+            Belajar mengenal flora, fauna, dan budaya lokal selama perjalanan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="galeri">
+      <div class="container">
+        <h3>Galeri Perjalanan</h3>
+        <div class="gallery">
+          <img src="img/rinjani.jpg" alt="Gunung" />
+          <img src="img/forest.jpg" alt="Hutan" />
+          <img src="img/danau.jpg" alt="Sungai" />
+          <img src="img/puncak.jpg" alt="Puncak" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section id="testimonial">
+      <div class="container">
+        <h2>Testimonial</h2>
+        <div class="testimonial-item">
+          <p>
+            "Perjalanan ini adalah pengalaman yang luar biasa! Tim sangat
+            profesional dan pemandangan gunung benar-benar menakjubkan."
+          </p>
+          <h2>- Fiersa Besari, Jakarta</h2>
+        </div>
+        <div class="testimonial-item">
+          <p>
+            "Pendakian bersama tim ini sangat menentang ilmu ghoib. Saya akan
+            kembali lagi untuk mendaki gunung lainnya!"
+          </p>
+          <h2>- Dzawin Nur, Bandung</h2>
+        </div>
+      </div>
+    </section>
+
+    <!-- Peta Interaktif -->
+    <section id="lokasi">
+      <div class="container">
+        <h2>Lokasi Kami</h2>
+        <p>
+          Temukan lokasi gunung-gunung terbaik yang bisa Anda kunjungi bersama
+          kami:
+        </p>
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <!-- Kontak -->
+    <section id="kontak">
+      <div class="container">
+        <h3>Hubungi Kami</h3>
+        <form>
+          <label for="nama">Nama</label>
+          <input type="text" id="nama" name="nama" placeholder="Nama Anda" />
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email Anda"
+          />
+          <label for="pesan">Pesan</label>
+          <textarea
+            id="pesan"
+            name="pesan"
+            placeholder="Tuliskan pesan Anda"
+          ></textarea>
+          <button type="submit">Kirim</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2024 Open Trip ghoib.</p>
+    </footer>
+  </body>
+</html>
